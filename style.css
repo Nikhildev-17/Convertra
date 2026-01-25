@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0C2C55;
+}
+
+.container {
+    width: 350px;
+    background-color: white;
+
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.select {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.from,
+.to {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex: 1;
+}
+
+input,
+select {
+    padding: 10px;
+    font-size: 1rem;
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+    outline: none;
+}
+
+input:focus,
+select:focus {
+    border-color: #4a90e2;
+}
+
+.message {
+    text-align: center;
+    font-size: 1.15rem;
+    color: #333;
+}
+
+.convert button {
+    width: 100%;
+    padding: 12px;
+
+    font-size: 1rem;
+    font-weight: bold;
+
+    background-color: #4a90e2;
+    color: white;
+
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+.convert button:hover {
+    background-color: #357abd;
+}
+
+.error {
+    color: red;
+}
+
