@@ -1,4 +1,4 @@
-import {URL} from "./config.js"
+const URL = "https://v6.exchangerate-api.com/v6/59fca717a2282d70ec430577/pair";
 import { countryList } from "./list.js";
 
 let input = document.querySelector(".input input");
