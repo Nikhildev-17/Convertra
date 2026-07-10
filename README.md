@@ -1,4 +1,4 @@
-# Currency Converter 💱
+# convertra 💱
 
 A production-style currency converter built using **HTML, CSS, and vanilla JavaScript**.  
 This project fetches real-time exchange rates from an external API and performs dynamic currency conversion with proper validation, error handling, and clean UI state management.
